@@ -1,0 +1,9 @@
+
+
+directive @lookup on ENUM
+directive @lookupItem(id:Int! ,name: String!) on ENUM_VALUE
+enum Color @lookup{
+    RED @lookupItem(id:1 ,name: "Red")
+    GREEN @lookupItem(id:2 ,name: "Green")
+}
+

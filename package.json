@@ -1,0 +1,27 @@
+{
+  "name": "ifdirectiveenumissue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/gql-gen --schema schema.js --project . --out . --config gql-gen.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kabytaa:Tt6420334!@github.com/kabytaa/ifDirectiveEnumIssue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabytaa/ifDirectiveEnumIssue/issues"
+  },
+  "homepage": "https://github.com/kabytaa/ifDirectiveEnumIssue#readme",
+  "devDependencies": {
+    "graphql": "^14.0.2",
+    "graphql-code-generator": "^0.12.4"
+  },
+  "dependencies": {
+    "apollo-server": "^2.0.8"
+  }
+}

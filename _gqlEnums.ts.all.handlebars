@@ -1,0 +1,11 @@
+/* tslint:disable */
+
+{{#each enums}}
+{{#ifDirective this "lookup"}}
+export const {{../name}}Lookup = {
+  {{#each ../values }}
+   {{value}}: { {{#ifDirective this "lookupItem"}}id:{{id}},name:'{{name}}'{{/ifDirective}} } ,
+  {{/each}}
+}
+{{/ifDirective}}
+{{/each}}
