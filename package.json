@@ -19,7 +19,7 @@
   "homepage": "https://github.com/kabytaa/ifDirectiveEnumIssue#readme",
   "devDependencies": {
     "graphql": "^14.0.2",
-    "graphql-code-generator": "^0.12.4"
+    "graphql-code-generator": "^0.12.5"
   },
   "dependencies": {
     "apollo-server": "^2.0.8"
